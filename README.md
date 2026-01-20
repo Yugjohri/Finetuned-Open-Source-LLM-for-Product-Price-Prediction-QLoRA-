@@ -17,23 +17,6 @@ The final fine-tuned model is evaluated on real-world product data and, in sever
 
 ---
 
-## Project Structure
-
-Fine-Tuned Open-Source LLM for Product Price Prediction (QLoRA)/
-├── day1.ipynb # Dataset exploration & problem formulation
-├── day2.ipynb # Training setup & preprocessing
-├── day3 and 4.ipynb # QLoRA fine-tuning pipeline
-├── day5.ipynb # Final evaluation & inference (main notebook)
-├── pricer/
-│ ├── evaluator.py # Evaluation logic & metrics
-│ └── items.py # Product schema & feature handling
-├── util.py # Shared helper utilities
-├── results.ipynb # Analysis of predictions & outputs
-└── README.md
-
-
----
-
 ## Technical Approach
 
 ### Model Fine-Tuning
